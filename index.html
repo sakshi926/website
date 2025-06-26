@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio website</title>
+	<link rel="stylesheet" type="text/css" href="portfolio.css">
+	<script src="https://kit.fontawesome.com/115b6ac552.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+	<div class="container">
+		<nav>
+			<h1>Sakshi Kolte</h1>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="header-text">
+			<p>FULL STACK DEVELOPER</p>
+			<h2>Hi, I'm <span>Sakshi Kolte</span><br> From Ahmednagar.</h2>
+		</div>
+	</div>
+</div>
+<!-- About -->
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1">
+				<img src="girl2.jpg">
+			</div>
+			<div class="about-col-2">
+				<h1 class="sub-title">About Me</h1>
+				<p style="text-align:justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+				<div class="tab-titles">
+					<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+					<p class="tab-links" onclick="opentab('experience')">Experience</p>
+					<p class="tab-links" onclick="opentab('education')">Education</p>
+				</div>
+				 <div class="tab-contents active-tab" id="skills"> <!-- Skills -->
+					<ul>
+						<li><span>FULL STACK DEVELOPER</span><br>Creating & Designing Websites,Softwar & Applications.</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="experience"> <!-- Experience -->
+					<ul>
+						<li><span>2025 (2Jan to 1Feb) - Current</span><br>Intern in Elite Tech Internship</li>
+						<li><span>2024 (Dec to Feb) </span><br>Complete internship at A2Z IT HUB LTD. </li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="education"> <!-- Education -->
+					<ul>
+						<li><span>2025 Pursuing</span><br>B.E.Computer at Adsul's Technical Campus, Ahmednagar.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- services -->
+<div id="services">
+	<div class="container">
+		<h1 class="sub-title">My Services</h1>
+		<div class="services-list">
+			<div>
+				<i class="fa-brands fa-codepen"></i>
+				<h2>Create & Design  Website. </h2><br>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.  </p>
+				<a href="#">Learn more</a>
+			</div>
+			<div>
+				<i class="fa-solid fa-hashtag"></i>
+				<h2>Create Software. </h2><br>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.  </p>
+				<a href="#">Learn more</a>
+			</div>
+			<div>
+				<i class="fa-brands fa-adn"></i>
+				<h2>Create Application. </h2><br>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.   </p>
+				<a href="#">Learn more</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- protfolio -->
+<div id="portfolio">
+	<div class="container">
+		<h1 class="sub-title">My Work</h1>
+		<div class="work-list">
+			<div class="work">
+				<img src="web1.png">
+				<div class="layer">
+					<h3>Website</h3>
+					<p style="text-align:justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed  eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+					<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+				</div>
+			</div>
+			<div class="work">
+				<img src="soft1.jpg">
+				<div class="layer">
+					<h3>Software</h3>
+					<p style="text-align:justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed  eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+					<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+				</div>
+			</div>
+			<div class="work">
+				<img src="app2.jpg">
+				<div class="layer">
+					<h3>Application</h3>
+					<p style="text-align:justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed  eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+					<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+				</div>
+			</div>
+		</div>
+		<a href="#" class="btn">See More</a>
+	</div>
+</div>
+<!-- contact -->
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="sub-title">Contact Me</h1>
+				<p><i class="fa-solid fa-envelope"></i>contact@example.com</p>
+				<p><i class="fa-solid fa-phone"></i>9234458793</p>
+				<div class="social-icons">
+					<a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+					<a href=""><i class="fa-brands fa-twitter"></i></a>
+					<a href=""><i class="fa-brands fa-linkedin"></i></a>
+					<a href=""><i class="fa-brands fa-github"></i></a>
+				</div>
+				<a href=" Resume.pdf" download class="btn btn2">Download CV</a>
+			</div>
+			<div class="contact-right">
+				<form>
+					<input type="text" name="Name" placeholder="Enter your name" required>
+					<input type="text" name="email" placeholder="Enter your email" required>
+					<textarea name="Message" rows="6" placeholder="Enter your message"></textarea>
+					<button type="submit" class="btn btn2">Sumbit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="copyright">
+		<p>Copyright @ sakshikolte. Made with <i class="fa-solid fa-heart"></i> by sakshi kolte.</p>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+	
+	var tablinks = document.getElementByClassName("tab-links");
+	var tabcontents = document.getElementByClassName("tab-contents");
+
+	function opentab(tabname){
+		for(tablink of tablinks){
+			tablink.classList.remove("active-link");
+		}
+		for(tabcontent of tabcontents){
+			tabcontent.classList.remove("active-tab");
+		}
+		event.currentTarget.classList.add("active-link");
+		document.getElementById(tabname).classList.add("active-tab");
+	}
+
+</script>
+</body>
+</html>
+
